@@ -34,7 +34,8 @@ namespace ForLoop_Exception
 
             ExcHandling();
 
-            //creating an object for Class Book
+            /*
+            //creating an object for Class Book (the old way w/out the constructor)
             Book book1 = new Book();
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
@@ -47,6 +48,15 @@ namespace ForLoop_Exception
 
             Console.WriteLine(book2.author);
             Console.WriteLine(book1.title);
+            */
+
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            Book book2 = new Book("Lord of the Rings", "Tolkein", 700);
+
+            book2.title = "The Hobbit";
+
+            Console.WriteLine(book2.title);
+            Console.WriteLine(book1.author);
         }
 
         //Exponent Method
