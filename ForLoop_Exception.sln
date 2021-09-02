@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop_Exception", "ForLoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "object_methods", "object_methods\object_methods.csproj", "{11FF7417-FC94-450D-9FB9-7EB5482E53DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getters_setters", "getters_setters\getters_setters.csproj", "{74BC40C0-1FAF-4B26-BB98-09B4D622F340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11FF7417-FC94-450D-9FB9-7EB5482E53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11FF7417-FC94-450D-9FB9-7EB5482E53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11FF7417-FC94-450D-9FB9-7EB5482E53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BC40C0-1FAF-4B26-BB98-09B4D622F340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BC40C0-1FAF-4B26-BB98-09B4D622F340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BC40C0-1FAF-4B26-BB98-09B4D622F340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BC40C0-1FAF-4B26-BB98-09B4D622F340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
