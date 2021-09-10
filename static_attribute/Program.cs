@@ -15,6 +15,10 @@ namespace static_attribute
             Song kashmir = new Song("Kashmir", "Led Zepplin", 150);
             Console.WriteLine(kashmir.getsongCount()); //shows two
 
+            Console.WriteLine(Math.Sqrt(144));//static method (ones already built in)
+
+            UsefulTools.SayHi("Amy");//using the class built in Usefull Tools
+
             Console.ReadLine();
         }
     }
